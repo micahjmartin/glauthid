@@ -1,0 +1,97 @@
+{
+  "version": "1.1.2",
+  "policy": {
+    "password": {
+      "keep_versions": 10,
+      "min_length": 4,
+      "max_length": 128,
+      "require_uppercase": false,
+      "require_lowercase": false,
+      "require_number": false,
+      "require_non_alpha_numeric": false,
+      "block_reuse": false,
+      "block_password_change": false
+    },
+    "user": {
+      "min_length": 3,
+      "max_length": 50,
+      "allow_non_alpha_numeric": false,
+      "allow_uppercase": false
+    }
+  },
+  "revision": 3,
+  "last_modified": "2021-11-21T02:06:50.863531387-05:00",
+  "users": [
+    {
+      "id": "f7eca86a-b4fc-4300-914b-895b612a1ce0",
+      "username": "sample",
+      "email_address": {
+        "address": "sample@glauth.local",
+        "domain": "glauth.local"
+      },
+      "email_addresses": [
+        {
+          "address": "sample@glauth.local",
+          "domain": "glauth.local"
+        }
+      ],
+      "passwords": [
+        {
+          "purpose": "generic",
+          "algorithm": "bcrypt",
+          "hash": "$2a$10$B1ro3drN6aSm0RERJ1sjG.sVChXEKpII.mEl5yrjlEv4f14dhbm/6",
+          "cost": 10,
+          "expired_at": "0001-01-01T00:00:00Z",
+          "created_at": "2021-11-21T07:06:20.41917048Z",
+          "disabled_at": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "created": "2021-11-21T07:06:20.419152669Z",
+      "last_modified": "2021-11-21T07:06:20.41915324Z",
+      "roles": [
+        {
+          "name": "admin",
+          "organization": "authp"
+        },
+        {
+          "name": "randomrole"
+        }
+      ]
+    },
+    {
+      "id": "4e088826-76a6-4867-b702-db4e022b9f32",
+      "username": "ironman",
+      "email_address": {
+        "address": "ironman@glauth.local",
+        "domain": "glauth.local"
+      },
+      "email_addresses": [
+        {
+          "address": "ironman@glauth.local",
+          "domain": "glauth.local"
+        }
+      ],
+      "passwords": [
+        {
+          "purpose": "generic",
+          "algorithm": "bcrypt",
+          "hash": "$2a$10$kpDqLtrKe7mB5zIKpVV2d.nXLR2btdcYVKUcyyTwAbEbeaSsaDI16",
+          "cost": 10,
+          "expired_at": "0001-01-01T00:00:00Z",
+          "created_at": "2021-11-21T07:06:50.779640654Z",
+          "disabled_at": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "created": "2021-11-21T07:06:50.779639389Z",
+      "last_modified": "2021-11-21T07:06:50.779639574Z",
+      "roles": [
+        {
+          "name": "superadmin"
+        },
+        {
+          "name": "metal"
+        }
+      ]
+    }
+  ]
+}

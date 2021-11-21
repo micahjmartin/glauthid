@@ -1,0 +1,23 @@
+glauth: expose caddy-auth-portal config for LDAP auth
+
+Usage:
+  glauth [options] -c <file>
+  glauth -h --help
+  glauth -version
+
+Options:
+  -basedn string
+    	LDAP Base domain (default "dc=glauth,dc=local")
+  -c string
+    	Config file.
+  -ldap string
+    	ldap bind address
+  -ldaps string
+    	ldaps bind address
+  -ldaps-cert string
+    	ldaps certificate
+  -ldaps-key string
+    	ldaps key
+  -v	Debug logging
+  -version
+    	ldaps key
